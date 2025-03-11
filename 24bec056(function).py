@@ -4,7 +4,7 @@
     s=n1+n2
     print("addition of two number is :",s)
 add()"""
-def add(n1,n2):
+"""def add(n1,n2):
     s=n1+n2
     print("addition of two number is :",s)
 def sub(n1,n2):
@@ -28,4 +28,39 @@ elif oprator=='*':
     multiply(n1,n2)
 elif oprator=='/':
     div(n1,n2)
+
+"""
+
+
+def add(n1,n2):
+    s=n1+n2
+    #print("addition of two number is :",s)
+    return s
+def sub(n1,n2):
+    s=n1-n2
+    #print("substraction of two number is :",s)
+    return s
+def multiply(n1,n2):
+    s=n1*n2
+    #print("multiplication of two number is :",s)
+    return s
+def div(n1,n2):
+    s=n1/n2
+    #print("division of two number is :",s)
+    return s
+n1=int(input("enter the number:"))
+n2=int(input("enter the second number :"))
+oprator=input("enter the oprator:+,-,/,* :")
+if oprator=='+':
+   s=add(n1,n2)
+   print("addition of two number is :",s)
+elif oprator=='-':
+   s=sub(n1,n2)
+   print("substraction of two number is :",s)
+elif oprator=='*':
+   s=multiply(n1,n2)
+   print("multiplication of two number is :",s)
+elif oprator=='/':
+   s=div(n1,n2)
+   print("division of two number is :",s)
 

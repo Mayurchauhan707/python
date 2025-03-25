@@ -61,13 +61,24 @@ even=filter(lambda n:n%2!=0 ,list1)
 print(list(even))
 
 """
+"""
 def sum(a,b):
   return a+b
 from function import reducef                                                          
 list1=[1,3,5,8,10,20]
 r=reduce(sum,list1)
 print(r)
+"""
 
+def msg():
+    print("msg")
+def disp():
+    print("display")
+def fun():
+    print("inside fun")
+list=[fun(),disp(),msg()]
+for i in list:
+                print(i)
 
 
 
